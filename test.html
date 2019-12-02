@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="appContainer">
+    <div class="appName">to do list</div>
+    <form id="taskForm">
+        <input type="text" placeholder="Please input your task" required/>
+        <input type="submit" value="ADD" class="button" />
+        <input type="reset" value="RESET" class="button" />
+    </form>
+    <div class="line"></div>
+    <div class = "planList">Your tasks
+        <ul class="tasksContainer">
+            <li><input type="checkbox" id="1"/>
+                <label for = "1" class="taskContent">
+                    <div class="task">Task1</div>
+
+
+                </label>
+                <img src="assets/icons/trash-can.png" class = "removeTaskIMG"/>
+            </li>
+            <li><input type="checkbox">Item2</li>
+            <li><input type="checkbox">Item3</li>
+            <li><input type="checkbox">Item4</li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
